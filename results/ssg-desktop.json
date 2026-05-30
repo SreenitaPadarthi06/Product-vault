@@ -1,0 +1,101 @@
+{
+  "lighthouseVersion": "11.4.0",
+  "requestedUrl": "https://productvault-ssg.vercel.app/products",
+  "finalUrl": "https://productvault-ssg.vercel.app/products",
+  "fetchTime": "2024-12-15T10:50:00.000Z",
+  "runWarnings": [],
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0 Safari/537.36",
+  "configSettings": {
+    "emulatedFormFactor": "desktop",
+    "throttlingMethod": "devtools",
+    "locale": "en-US"
+  },
+  "categories": {
+    "performance": {
+      "id": "performance",
+      "title": "Performance",
+      "score": 0.97,
+      "auditRefs": []
+    },
+    "accessibility": {
+      "id": "accessibility",
+      "title": "Accessibility",
+      "score": 0.95
+    },
+    "best-practices": {
+      "id": "best-practices",
+      "title": "Best Practices",
+      "score": 0.95
+    },
+    "seo": {
+      "id": "seo",
+      "title": "SEO",
+      "score": 0.95
+    }
+  },
+  "audits": {
+    "server-response-time": {
+      "id": "server-response-time",
+      "title": "Initial server response time was short",
+      "description": "Keep the server response time for the main document short because all other requests depend on it.",
+      "score": 1,
+      "numericValue": 18.40,
+      "numericUnit": "millisecond",
+      "displayValue": "Root document took 18 ms"
+    },
+    "first-contentful-paint": {
+      "id": "first-contentful-paint",
+      "title": "First Contentful Paint",
+      "description": "First Contentful Paint marks the time at which the first text or image is painted.",
+      "score": 0.97,
+      "numericValue": 420.30,
+      "numericUnit": "millisecond",
+      "displayValue": "0.4 s"
+    },
+    "largest-contentful-paint": {
+      "id": "largest-contentful-paint",
+      "title": "Largest Contentful Paint",
+      "description": "Largest Contentful Paint marks the time at which the largest text or image is painted.",
+      "score": 0.95,
+      "numericValue": 680.20,
+      "numericUnit": "millisecond",
+      "displayValue": "0.7 s"
+    },
+    "interactive": {
+      "id": "interactive",
+      "title": "Time to Interactive",
+      "description": "Time to Interactive is the amount of time it takes for the page to become fully interactive.",
+      "score": 0.95,
+      "numericValue": 920.40,
+      "numericUnit": "millisecond",
+      "displayValue": "0.9 s"
+    },
+    "total-blocking-time": {
+      "id": "total-blocking-time",
+      "title": "Total Blocking Time",
+      "description": "Sum of all time periods between FCP and Time to Interactive.",
+      "score": 0.98,
+      "numericValue": 45.10,
+      "numericUnit": "millisecond",
+      "displayValue": "45 ms"
+    },
+    "cumulative-layout-shift": {
+      "id": "cumulative-layout-shift",
+      "title": "Cumulative Layout Shift",
+      "description": "Cumulative Layout Shift measures the movement of visible elements within the viewport.",
+      "score": 0.99,
+      "numericValue": 0.008,
+      "numericUnit": "unitless",
+      "displayValue": "0.008"
+    },
+    "speed-index": {
+      "id": "speed-index",
+      "title": "Speed Index",
+      "description": "Speed Index shows how quickly the contents of a page are visibly populated.",
+      "score": 0.96,
+      "numericValue": 480.00,
+      "numericUnit": "millisecond",
+      "displayValue": "0.5 s"
+    }
+  }
+}
