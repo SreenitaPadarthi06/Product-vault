@@ -9,17 +9,7 @@ A comprehensive product catalog application built three times using Next.js to i
 
 ---
 
-## 🚀 Live Deployments
 
-| Version | URL | Rendering Strategy |
-|---|---|---|
-| **CSR** | [productvault-csr.vercel.app](https://productvault-csr.vercel.app/products) | Client-Side Rendering |
-| **SSR** | [productvault-ssr.vercel.app](https://productvault-ssr.vercel.app/products) | Server-Side Rendering |
-| **SSG** | [productvault-ssg.vercel.app](https://productvault-ssg.vercel.app/products) | Static Site Generation (ISR 60s) |
-
-> **Note**: Update the above URLs with your actual Vercel deployment URLs after deploying.
-
----
 
 ## 📁 Project Structure
 
